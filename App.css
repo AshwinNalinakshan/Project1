@@ -1,0 +1,114 @@
+
+.App{
+    background-color: rgb(243, 242, 242);
+    border-radius: 18px;
+    width: 95%;
+    height: 750px;
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    overflow: hidden;
+}
+
+.Appheaderimg{
+    object-fit: cover;
+    width: 100%;
+    height: 80px;   
+}
+.Appbody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Appbodyleft{
+    margin-top: -50px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    flex:1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Appbodylefttitle{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Appbodyleftimg{
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.Appbodyleftdesc{
+    margin-top: 10px;
+    color: gray;
+    font-size: 13px;
+}
+.Appbodyleftname{
+    font-size: 15px;
+    font-weight: bold;
+}
+.Appbodyleftprice{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.Appbodyright{
+    flex:3.7;
+    height: 100%;
+}
+.Nav{
+    margin-top: 22px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    
+    
+}.fa{
+    padding-right: 6px;
+}
+.navbutn{
+    margin: 9px 0;
+    border-style: none;
+    background-color: transparent;
+    color:rgb(106, 106, 106);
+    font-size: 12px;
+    
+}
+.navbutn:hover{
+    cursor: pointer;
+    transition: .4s;
+    transform: scale(1.02);
+    color:black;
+    font-weight: bold;
+}
+.signbutn{
+    margin-top: 35px;
+        border-style: none;
+        background-color: transparent;
+        color:darkgrey;
+        font-size: 12px;
+    
+}
+.signbutn:hover{
+    cursor: pointer;
+    transition: .4s;
+    transform: scale(1.02);
+    color:black;
+    font-weight: bold;
+}

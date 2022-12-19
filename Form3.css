@@ -1,0 +1,293 @@
+.Rightmain{
+    
+    height: 100%;
+}
+.Rightcontainer{
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+}
+
+.Rightcontainertitle{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+.Row1{
+    
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Row1a{
+    flex:.8;
+    margin: 10px 45px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Row1a1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Row1a1aa{
+    opacity: .7;
+    font-size: 13px;
+    margin-right: 5px;   
+}
+.Row1a1aa1{
+    display: flex;
+    
+}
+.Row1a2{
+    padding: 15px 4px;
+    font-size: 40px;
+
+}
+.Row1a3{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.Row1a3q{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Row1a3img{
+    margin-right: 20px;
+    width: 40px;
+    height: 30px;
+}
+.Row1b{
+    flex:1;
+    margin: 0 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+.Row1b1{
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Row1b11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#week{
+    margin-top: -5px;
+    
+    font-size: 12px;
+    border-style: none;
+    margin-right: 20px;
+}
+.Row1b2{
+    padding: 0px 5px;
+    object-fit: contain;
+    height: 140px;
+    
+}
+.Row2{
+    flex:1;
+
+    display: flex;
+}
+.Row2a{
+   
+    flex:1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Row2a1{
+    
+    padding: 5px 40px;
+    font-size: 14px;
+    color: rgb(81, 81, 81);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my-3{
+    
+    margin: 0 35px;
+}
+.Row2a2{
+    padding: 0px 40px;
+    display: flex;
+    column-gap: 20px;
+}
+.span{
+    font-weight: bold;
+
+}
+.Row2a2a{
+    flex:1;
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 7px;
+}
+
+.span2{
+    font-size: 13px;
+    color: grey;
+    
+}
+.Row2b{
+    flex:1;
+    margin-top: 10px;
+    height: 100%;
+}
+.Row2b1{
+    padding: 10px 10px;
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Row2b2{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+.Row2b3{
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+.Row3{
+    flex:1.8;
+    margin-top: 5px;
+    display: flex;
+}
+.Row3a{
+   
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-left: 40px;
+    
+}
+.Row3acontent{
+    margin: -10px 0;
+    justify-content: space-between;
+    margin-right: 50px;
+    display: flex;
+    
+}
+
+.Row2b3butn{
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.Row3aview{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size:11px;
+    border-style: none;
+    background-color: transparent;
+}
+.Row3aview:hover{
+    opacity:.8;
+    color:darkgrey;
+}
+.Row3atitle{
+    padding: 5px 30px 5px 0;
+    font-size: 14px;
+}
+.Row3a1, .Row3a2, .Row3a3{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    column-gap: 60px;
+    margin: -6px 0;
+    
+}
+.Row3acon{
+    display: flex;
+}
+.prod{
+    color:rgb(96, 96, 96);
+    font-size: 9px;
+    
+    
+}
+.Row3b{
+    
+    flex:1;
+    opacity:.9;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.Row3b2{
+    
+    color:whitesmoke;
+    flex:1;
+    font-size: 12px;
+    display: flex;
+    column-gap: 40px;
+    height:41%;
+    
+    
+}
+.Row3b2a{
+    margin: 05px 0;
+    padding: 03px 8px;
+    border-radius: 10px;
+    flex: 1;
+    background-color: crimson;
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.rowimg{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.Row3b2b{
+    margin: 05px 0;
+    padding: 03px 8px;
+    border-radius: 10px;
+    
+    flex: 1;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+}
+.Row3b2c{
+    margin: 05px 0;
+    padding: 3px 8px;
+    border-radius: 10px;
+    
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
